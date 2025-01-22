@@ -8,6 +8,7 @@ on:
     branches: ["master", "main"]
 
 permissions:
+  contents: read
   id-token: write
 
 jobs:
@@ -17,6 +18,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run Amplify Security Scan (Lab)
-        uses: amplify-security/runner-action@main
+        uses: amplify-security/runner-action@develop
         with:
           amplify-endpoint: https://api.lab.amplify.security
