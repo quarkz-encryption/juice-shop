@@ -29,7 +29,7 @@ on:
   pull_request: {}
   workflow_dispatch: {}
   push:
-    branches: ["main", "develop"]
+    branches: ["main", "develop", "master"]
 
 permissions:
   contents: read
