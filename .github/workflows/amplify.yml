@@ -20,7 +20,7 @@ jobs:
       - name: Run Amplify Security Scan (Lab)
         uses: amplify-security/runner-action@develop
         with:
-          amplify-endpoint: cloggily-pseudocultural-alexa.ngrok-free.dev
+          amplify-endpoint: https://cloggily-pseudocultural-alexa.ngrok-free.dev
 
 # .github/workflows/amplify.yml
 ---
